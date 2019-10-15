@@ -1,4 +1,4 @@
-<img src="https://avatars1.githubusercontent.com/u/7063040?v=4&s=200.jpg" alt="HU" width="127px" height="127px" align="left />
+<img src="https://avatars1.githubusercontent.com/u/7063040?v=4&s=200.jpg" alt="HU" width="127px" height="127px" align="left" />
 
 # Currency converter
 
