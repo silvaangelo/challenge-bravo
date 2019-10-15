@@ -1,0 +1,11 @@
+FROM node:10-alpine
+
+WORKDIR /app
+COPY . /app
+
+RUN set -x \
+  && apk --no-cache add openssl wget \
+  && npm install \
+  && npm run tsc
+
+CMD npm run start

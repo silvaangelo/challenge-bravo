@@ -1,0 +1,19 @@
+version: '3'
+services:
+  api:
+    build:
+      context: .
+      dockerfile: docker/dev/Dockerfile-api
+    environment:
+      - ENV=development
+      - PORT=3000
+      - REDIS_HOST=redis
+      - REDIS_PASSWORD=redis
+      - REDIS_PORT=redis
+      - REDIS_DATABASE=0
+      - EXCHANGE_RATES_HOST=
+      - COINBASE_HOST=
+      - CACHE_TIME=5
+    volumes:
+      - .:/app
+    
